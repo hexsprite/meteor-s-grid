@@ -7,7 +7,7 @@ const autoprefixer = Npm.require('autoprefixer');
 const sGrid = Npm.require('s-grid');
 const rupture = Npm.require('rupture');
 const Future = Npm.require('fibers/future');
-const fs = Plugin.fs;
+const fs = require('fs');
 const path = Plugin.path;
 
 Plugin.registerCompiler({
